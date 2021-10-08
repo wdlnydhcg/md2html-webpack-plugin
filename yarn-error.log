@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/zhongmingyuan/.nvm/versions/node/v14.17.1/bin/node /Users/zhongmingyuan/.nvm/versions/node/v14.17.1/bin/yarn
+
+PATH: 
+  /Users/zhongmingyuan/.nvm/versions/node/v14.17.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Applications/Wireshark.app/Contents/MacOS:/Users/zhongmingyuan/.nvm/versions/node/v14.17.1/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Volumes/workspace/self-workspace/webpack-demo/webpack-plugin-md2html/package.json: Unexpected token } in JSON at position 354
+      at JSON.parse (<anonymous>)
+      at /Users/zhongmingyuan/.nvm/versions/node/v14.17.1/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/zhongmingyuan/.nvm/versions/node/v14.17.1/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/zhongmingyuan/.nvm/versions/node/v14.17.1/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "webpack-plugin-md2html",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "webpack": "^4.30.0",
+      "webpack-cli": "^3.3.0",
+      "webpack-dev-server": "^3.7.2"
+    },
+  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
